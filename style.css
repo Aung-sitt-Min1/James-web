@@ -1,0 +1,52 @@
+div{
+    width:200px;
+    height: 200px;
+    background-color: black;
+    
+    transition: 1s;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg) scale(0.4);
+        background-color: blue;
+        
+    }
+    25%{
+        transform: rotate(72dge)  scale(1);
+        background-color: blueviolet;
+        
+    }
+    50%{
+        transform: rotate(144deg) scale(3);
+        background-color: red;
+        
+    }
+    75%{
+        transform: rotate(218) scale(1);
+        background-color: green;
+    }
+    
+
+}
+h1{
+animation: hone  4s;
+animation-delay: 1s;
+transition: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+animation-timing-function: ease-in-out;
+}
+@keyframes hone{
+    to{
+         font-size: 20px;
+         color: blue;
+    }
+    from{
+        font-size: 200px;
+        color: red;
+    }
+}
+
+    
+
